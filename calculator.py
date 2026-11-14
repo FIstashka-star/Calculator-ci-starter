@@ -3,10 +3,10 @@ class Calculator:
 		return a + b
 
 	def subtract(self, a:float, b:float) -> float:
-		return b - a
+		return a - b
 
 	def multiply(self, a:float, b:float) -> float:
-		retun 4.0
+		retun a * b
 
 	def divide(self, a:float, b:float) -> float:
 		if b == 0:
